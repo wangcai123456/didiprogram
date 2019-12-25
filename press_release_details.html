@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>新闻公告</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui_tang.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1578657_nwu8f6gditc.css"/>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<style type="text/css">
+			.first{
+				margin-top:60px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">新闻公告</h1>
+		</header>
+		<div class="first">
+			<div class="mui-card">
+				<div class="mui-card-header mui-card-media">
+					<img src="./images/xinwenwang.jpg"/>
+					<div class="mui-media-body">
+						中国新闻网
+						<p>发表于 2019-12-24 15:28</p>
+					</div>
+				</div>
+				<div class="mui-card-content">
+				<p>中国国家主席习近平23日在人民大会堂会见韩国总统文在寅</p>
+				<img src="./images/xijinping.jpg" height="180px"width="280px">	
+				<p>　习近平欢迎文在寅来华出席第八次中日韩领导人会议。
+				习近平指出，中韩都是亚洲乃至世界上有分量、有影响的重
+				要国家，两国在推动双边关系实现更好发展、促进地区和平
+				稳定繁荣、捍卫多边主义和自由贸易体制等方面拥有广泛共
+				识，一直是紧密合作的朋友和伙伴。过去两年多来，中韩关
+				系保持了稳定发展的大方向。面对当今世界百年未有之大变
+				局，中韩应深化和发展战略合作伙伴关系，照顾彼此核心利
+				益和重大关切，推动双边关系迈上更高水平。</p>
+				</div>
+				<div class="mui-card-footer">来源：新浪网</div>
+			</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item "href="index.html">
+					<div class="iconfont icon-1"></div>
+					<div class="mui-tab-label">首页</div>
+				</a>
+				<a class="mui-tab-item" href="">
+					<div class="iconfont icon-chuangyexiangmu"></div>
+					<div class="mui-tab-label">创业项目</div>
+				</a>
+				<a class="mui-tab-item" href="">
+					<div class="iconfont icon-icon-liucheng"></div>
+					<div class="mui-tab-label">报名流程</div>
+				</a>
+				<a class="mui-tab-item" href="" >
+					<div class="iconfont icon-fengcai"></div>
+					<div class="mui-tab-label">平台风采</div>
+				</a>
+				<a class="mui-tab-item mui-active" >
+					<div class="iconfont icon-wode1"></div>
+					<div class="mui-tab-label">我的滴滴</div>
+				</a>
+			</nav>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			// mui中屏蔽了点击事件，下面的代码表示不让它屏蔽点击事件
+			mui("body").on("tap","a",function(){
+				document.location.href = this.href;
+			})
+		</script>
+	</body>
+
+</html>
