@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>新闻公告</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui_tang.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1578657_nwu8f6gditc.css"/>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<style type="text/css">
+			.first{
+				margin-top:70px;
+			}
+			.wrap{
+				margin-top: 60px;
+				width: 100%;
+			}
+			.box{
+				background-color: #FFFFFF;
+				height: 100px;
+				width: 90%;
+				margin: 25px auto;
+				border-left: 5px solid blue;
+				padding: 20px;
+				position: relative;
+			}
+			.btn{
+				display: block;
+				width: 150px;
+				height: 30px;
+				text-align: center;
+				line-height: 30px;
+				background-color: #CCCCCC;
+				color: white;
+				font-size: 16px;
+				position: absolute;
+				bottom: -30px;
+				right:0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">新闻公告</h1>
+		</header>
+		
+		<div class="wrap" href="./press_release_details.html">
+			<div class="box">
+					<h4>中国新闻网</h4>
+				    <p class="mui-ellipsis">中国国家主席习近平23日在人民大会堂会见韩国总统文在寅</p>
+					<p>发表于 2019-12-24 08:48</p>
+				<a class="btn" href="press_release_details.html">查看详情</a>
+			</div>
+			<div class="box">
+						<h4>徒步旅行者</h4>
+						<p class="mui-ellipsis">有的旅行是为了拓宽眼界，浏览风景名胜。有的旅行是为了
+						体验生活，感悟人生。有的旅行时为了寻找逝去的年华，重温青春的惆怅。而有的旅行是
+						释放负面情绪，换个心情，轻装上阵。</p>
+						<p>发表于 2019-12-24 09:15</p>
+				<a class="btn" href="press_release_details.html">查看详情</a>
+			</div>
+			<div class="box">
+					  <h4> 新浪网</h4>
+						<p class="mui-ellipsis">中国科学家首次证实“水变冰”百年理论预言</p>
+						<p>发表于 2019-12-24 11:28</p>
+				<a class="btn" href="press_release_details.html">查看详情</a>
+			</div>
+			<div class="box">
+					  <h4>央视网</h4>
+						<p class="mui-ellipsis">“今年是新中国成立70周年。在这个重要时间
+						节点开展‘不忘初心、牢记使命’主题教育，其特别意义在于，无论我们走得
+						多远，都不能忘记来时的路。”在“不忘初心、牢记使命”主题教育工作会议上
+						，习近平总书记着重强调铭记历史的重要性。</p>
+						<p>发表于 2019-12-24 13:22</p>
+				<a class="btn" href="press_release_details.html">查看详情</a>
+			</div>
+			<div class="box">
+					  <h4>中国新闻网</h4>
+						<p class="mui-ellipsis">成都12月24日电 (记者 张子扬)中国国务院总
+						理李克强24日上午在成都与韩国总统文在寅、日本首相安倍晋三共同出席第八
+						次中日韩领导人会议，就中日韩合作以及地区和国际问题交换看法。</p>
+						<p>发表于 2019-12-24 18:42</p>
+				<a class="btn" href="press_release_details.html">查看详情</a>
+			</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item " href="index.html">
+					<div class="iconfont icon-1"></div>
+					<div class="mui-tab-label">首页</div>
+				</a>
+				<a class="mui-tab-item" href="">
+					<div class="iconfont icon-chuangyexiangmu"></div>
+					<div class="mui-tab-label">创业项目</div>
+				</a>
+				<a class="mui-tab-item" href="">
+					<div class="iconfont icon-icon-liucheng"></div>
+					<div class="mui-tab-label">报名流程</div>
+				</a>
+				<a class="mui-tab-item" href="" >
+					<div class="iconfont icon-fengcai"></div>
+					<div class="mui-tab-label">平台风采</div>
+				</a>
+				<a class="mui-tab-item mui-active" >
+					<div class="iconfont icon-wode1"></div>
+					<div class="mui-tab-label">我的滴滴</div>
+				</a>
+			</nav>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			// mui中屏蔽了点击事件，下面的代码表示不让它屏蔽点击事件
+			mui("body").on("tap","a",function(){
+				document.location.href = this.href;
+			})
+		</script>
+	</body>
+
+</html>
