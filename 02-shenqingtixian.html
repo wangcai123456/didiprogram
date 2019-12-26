@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min1.css" rel="stylesheet"/>
+	<link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_1578657_nwu8f6gditc.css" />
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+	<style>
+		.button{
+			width: 334px;
+			height: 43px;
+			margin: 0 auto;
+			background-color: #007AFF;
+			margin-top: 10px;
+			}
+			.button1{
+				width: 334px;
+				height: 43px;
+				margin: 0 auto;
+				background-color: #007AFF;
+				font-size: 18px;
+				}
+	</style>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title">创业项目</h1>
+	</header>
+	
+	<form class="mui-input-group">
+		<div class="mui-input-row">
+			<label>资金余额:</label>
+			<input type="text" value="50000.00元">
+		</div>
+		<div class="mui-input-row">
+			<label>提现金额:</label>
+			<input type="text" class="mui-input-clear">
+		</div>
+		<div class="mui-input-row">
+			<label>户名:</label>
+			<input type="text" class="mui-input-clear">
+		</div>
+		<div class="mui-input-row">
+			<label>开户行:</label>
+			<input type="text" class="mui-input-clear">
+		</div>
+		<div class="mui-input-row">
+			<label>银行账号:</label>
+			<input type="text" class="mui-input-clear" >
+		</div>
+		<div class="mui-input-row">
+			<label>开户行地址:</label>
+			<input type="text" class="mui-input-clear">
+		</div>
+	</form>
+	<div class="mui-btn mui-btn-primary">
+		提交申请
+	</div>
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item" href="index.html">
+			<div class="iconfont icon-1"></div>
+			<div class="mui-tab-label">首页</div>
+		</a>
+		<a class="mui-tab-item mui-active" href="firstprogram.html">
+			<div class="iconfont icon-chuangyexiangmu"></div>
+			<div class="mui-tab-label">创业项目</div>
+		</a>
+		<a class="mui-tab-item" href="registrationprocess.html">
+			<div class="iconfont icon-icon-liucheng"></div>
+			<div class="mui-tab-label">报名流程</div>
+		</a>
+		<a class="mui-tab-item" href="03-pingtaifengcai.html">
+			<div class="iconfont icon-fengcai"></div>
+			<div class="mui-tab-label">平台风采</div>
+		</a>
+		<a class="mui-tab-item" href="personaldata.html">
+			<div class="iconfont icon-wode1"></div>
+			<div class="mui-tab-label">我的滴滴</div>
+		</a>
+	</nav>
+</body>
+<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		// mui中屏蔽了点击事件，下面的代码表示不让它屏蔽点击事件
+		mui("body").on("tap","a",function(){
+			document.location.href = this.href;
+		})
+	</script>
+</html>

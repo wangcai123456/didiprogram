@@ -6,6 +6,7 @@
     <title></title>
     <script src="js/mui.min.js"></script>
 	<link href="css/mui_xiong.css" rel="stylesheet" />
+	<link href="css/mui.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="//at.alicdn.com/t/font_1578657_nwu8f6gditc.css"/>
     <script type="text/javascript" charset="utf-8">
       	mui.init();
@@ -18,9 +19,6 @@
 				text-align: center;
 				margin: 0 auto;
 				padding-top: 100px;}
-		.mui-bar-nav {background: #0062CC;}
-		.mui-title{color: white;}
-		.mui-action-back{color: white;}		
 	</style>
 </head>
 <body>
@@ -31,7 +29,7 @@
 			<div class="wrap">
 				<div class="user">
 					<div class="userinfo">
-						<img src="./images/01.png" >
+						<img src="./image/01.png" >
 					</div>				
 				</div>	
 			</div>
@@ -49,29 +47,36 @@
 			<button type="button" class="mui-btn mui-btn-blue mui-btn-block">登录</button>
 			</div>
 			<div class="mui-button-row">
-			<button type="button" class="mui-btn mui-btn-white mui-btn-block">免费注册</button>
+			<a href="04-kuaisuzhuce.html"><button type="button" class="mui-btn mui-btn-white mui-btn-block">免费注册</button></a>
 			</div>
 	<nav class="mui-bar mui-bar-tab">
-			<a class="mui-tab-item mui-active">
+			<a class="mui-tab-item" href="index.html">
 				<div class="iconfont icon-1"></div>
 				<div class="mui-tab-label"herf="">首页</div>						
 			</a>
-			<a class="mui-tab-item" >
+			<a class="mui-tab-item" href="firstprogram.html">
 				<div class="iconfont icon-chuangyexiangmu"></div>
 				<div class="mui-tab-label"herf="">创业项目</div>
 			</a>
-			<a class="mui-tab-item" >
+			<a class="mui-tab-item" href="registrationprocess.html">
 				<div class="iconfont icon-icon-liucheng"></div>
 				<div class="mui-tab-label"herf="">报名流程</div>
 			</a>
-			<a class="mui-tab-item" >
+			<a class="mui-tab-item" href="03-pingtaifengcai.html">
 				<div class="iconfont icon-fengcai"></div>
 				<div class="mui-tab-label"herf="">平台风采</div>
 			</a>
-			<a class="mui-tab-item">
+			<a class="mui-tab-item mui-active" href="personaldata.html">
 				<div class="iconfont icon-wode1"></div>
 				<div class="mui-tab-label"herf="">我的滴滴</div>
 			</a>
 		</nav>
 </body>
+<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		// mui中屏蔽了点击事件，下面的代码表示不让它屏蔽点击事件
+		mui("body").on("tap","a",function(){
+			document.location.href = this.href;
+		})
+	</script>
 </html>

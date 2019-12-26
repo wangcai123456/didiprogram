@@ -6,6 +6,7 @@
 		<title>新闻公告</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="css/mui_tang.css" rel="stylesheet" />
+		<link href="css/mui.min.css" rel="stylesheet"/>
 		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1578657_nwu8f6gditc.css"/>
 		<script type="text/javascript" charset="utf-8">
 			mui.init();
@@ -89,34 +90,34 @@
 			</div>
 		</div>
 		<nav class="mui-bar mui-bar-tab">
-				<a class="mui-tab-item " href="index.html">
+				<a class="mui-tab-item  mui-active" href="index.html">
 					<div class="iconfont icon-1"></div>
 					<div class="mui-tab-label">首页</div>
 				</a>
-				<a class="mui-tab-item" href="">
+				<a class="mui-tab-item" href="firstprogram.html">
 					<div class="iconfont icon-chuangyexiangmu"></div>
 					<div class="mui-tab-label">创业项目</div>
 				</a>
-				<a class="mui-tab-item" href="">
+				<a class="mui-tab-item" href="registrationprocess.html">
 					<div class="iconfont icon-icon-liucheng"></div>
 					<div class="mui-tab-label">报名流程</div>
 				</a>
-				<a class="mui-tab-item" href="" >
+				<a class="mui-tab-item" href="03-pingtaifengcai.html" >
 					<div class="iconfont icon-fengcai"></div>
 					<div class="mui-tab-label">平台风采</div>
 				</a>
-				<a class="mui-tab-item mui-active" >
+				<a class="mui-tab-item" href="personaldata.html">
 					<div class="iconfont icon-wode1"></div>
 					<div class="mui-tab-label">我的滴滴</div>
 				</a>
 			</nav>
-		<script src="js/mui.min.js"></script>
+		
+	</body>
+<script src="js/mui.min.js"></script>
 		<script type="text/javascript">
 			// mui中屏蔽了点击事件，下面的代码表示不让它屏蔽点击事件
 			mui("body").on("tap","a",function(){
 				document.location.href = this.href;
 			})
 		</script>
-	</body>
-
 </html>

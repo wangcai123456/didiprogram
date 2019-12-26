@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_1578657_nwu8f6gditc.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+	<style type="text/css">
+		.mui-segmented-control{
+			width: 100%;
+			height:50px ;
+		}
+		body{
+			background-color: #FFFFFF;
+			margin: 0 auto;
+		}
+		.aa{
+			background-color: #F7F7F7;
+		}
+		.bb{
+			margin-left: 20px;
+		}
+		.cc{
+			margin-left: 20px;
+		}
+		span{
+			color: #000000;
+			font-size: 15px;
+		}
+		.dd{
+			background-color: #FFFFFF;
+		}
+		.son1{
+			width: 100%;
+			height: 65px;
+		}
+	</style>
+</head>
+<body>
+	
+	<header class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title">创业项目</h1>
+	</header>
+	<div class="mui-content">
+		<div style="padding: -1px 15px;">
+			<div id="segmentedControl" class="mui-segmented-control">
+				<a class="mui-control-item" href="firstprogram.html">钻石创业者</a>
+				<a class="mui-control-item" href="second.html">金牌创业者</a>
+				<a class="mui-control-item mui-active" >银牌创业者</a>
+			</div>
+		</div>
+	<div>
+		<img src="./images/cc.jpg" width=100%/>
+	</div>
+	<div id="wraper">
+		<div align="center">
+			<h3>服务内容</h3>
+		</div>
+		<div align="center">
+				<img src="images/9.png"/>
+				<img src="images/jiahao.png" />
+				<img src="images/10.png" />
+				
+		</div>
+		</div>
+		<div>
+			<h6 align="center">提供以上两个学院的技术支持，咨询服务，课件学习等内容。</h6>			
+		</div>		
+	</div>
+	
+	<div class="aa">
+		<div>
+			<h4 align="center">创业者享受的回报收益</h4>
+		</div>
+		<div align="center">
+			<img src="images/11.png" width="300px" height="120px"/>
+		</div>
+				<div class="box">
+					<div class="son1"></div>
+				</div>
+	</div>
+	
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item" href="index.html">
+			<div class="iconfont icon-1"></div>
+			<div class="mui-tab-label">首页</div>
+		</a>
+		<a class="mui-tab-item mui-active" href="firstprogram.html">
+			<div class="iconfont icon-chuangyexiangmu"></div>
+			<div class="mui-tab-label">创业项目</div>
+		</a>
+		<a class="mui-tab-item" href="registrationprocess.html">
+			<div class="iconfont icon-icon-liucheng"></div>
+			<div class="mui-tab-label">报名流程</div>
+		</a>
+		<a class="mui-tab-item" href="03-pingtaifengcai.html">
+			<div class="iconfont icon-fengcai"></div>
+			<div class="mui-tab-label">平台风采</div>
+		</a>
+		<a class="mui-tab-item" href="personaldata.html">
+			<div class="iconfont icon-wode1"></div>
+			<div class="mui-tab-label">我的滴滴</div>
+		</a>
+	</nav>
+	
+	
+</body>
+<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		// mui中屏蔽了点击事件，下面的代码表示不让它屏蔽点击事件
+		mui("body").on("tap","a",function(){
+			document.location.href = this.href;
+		})
+	</script>
+</html>

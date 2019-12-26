@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min1.css" rel="stylesheet"/>
+	<link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_1578657_nwu8f6gditc.css" />
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<!DOCTYPE html>
+	<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title></title>
+	    <script src="js/mui.min.js"></script>
+	    <link href="css/mui.min.css" rel="stylesheet"/>
+	    <script type="text/javascript" charset="utf-8">
+	      	mui.init();
+	    </script>
+		<style>
+			.bu{
+				margin-top: 5px;
+				font-size: 19px;
+			}
+			.bu1{
+				position: absolute;
+				left: 288px;
+				top: 10px;
+			}
+		.bu2{
+			position: absolute;
+			left: 230px;
+			top: 10px;
+			background-color: #F49E0B;
+		}
+		</style>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">创业项目</h1>
+		</header>
+		<form class="mui-input-group">
+			<div class="mui-input-row">
+				<label>客户姓名：</label>
+				<input type="text" class="mui-input-clear" >
+			</div>
+		<div class="mui-input-row">
+			<label>手机号：</label>
+			<input type="text" class="mui-input-clear">
+		</div>
+		<div class="mui-input-row">
+			<label>身份证号：</label>
+			<input type="text" class="mui-input-clear">
+		</div>
+		<div class="mui-input-row">
+			<label>身份证号：</label>
+			<select class="bu">
+				<option value="item-1">钻石会员</option>
+				<option value="item-2">黄金会员</option>
+				<option value="item-3">白银会员</option>
+			</select>
+		</div>
+		<div class="mui-input-row">
+			<label>验证码：</label>
+			<input type="text">
+			<button type="button" class="bu1">S Y N P</button></div>
+		</div>
+		<div class="mui-input-row">
+			<label>短信验证：</label>
+			<input type="text">
+			<button type="button" class="bu2">获取验证码（60）</button></div>
+		</div>
+		</form>
+		<div class="mui-card">
+			<form class="mui-input-group">
+				<div class="mui-input-row mui-checkbox mui-left">
+					<label>我已同意以下条款<a style="color: #0062CC;">《用户使用协议》</a></label>
+					<input name="checkbox" value="Item 2" type="checkbox" checked>
+				</div>
+			</form>
+		</div>
+		<div class="mui-btn mui-btn-primary">
+			申请注册
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item" href="index.html">
+				<div class="iconfont icon-1"></div>
+				<div class="mui-tab-label">首页</div>
+			</a>
+			<a class="mui-tab-item mui-active" href="firstprogram.html">
+				<div class="iconfont icon-chuangyexiangmu"></div>
+				<div class="mui-tab-label">创业项目</div>
+			</a>
+			<a class="mui-tab-item" href="registrationprocess.html">
+				<div class="iconfont icon-icon-liucheng"></div>
+				<div class="mui-tab-label">报名流程</div>
+			</a>
+			<a class="mui-tab-item" href="03-pingtaifengcai.html">
+				<div class="iconfont icon-fengcai"></div>
+				<div class="mui-tab-label">平台风采</div>
+			</a>
+			<a class="mui-tab-item" href="personaldata.html">
+				<div class="iconfont icon-wode1"></div>
+				<div class="mui-tab-label">我的滴滴</div>
+			</a>
+		</nav>
+	
+</body>
+<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		// mui中屏蔽了点击事件，下面的代码表示不让它屏蔽点击事件
+		mui("body").on("tap","a",function(){
+			document.location.href = this.href;
+		})
+	</script>
+</html>
