@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui_xiong.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/app.css">
+	<style>
+		.wrap{width: 100%;}
+		.user{height:250px;
+			background: url(./images/01.jpg);
+			}
+		.userinfo{width:200px;
+			text-align: center;
+			margin: 0 auto;
+			padding-top: 50px;}
+		/* .a{width: 100px;
+			height: 40px;
+			text-align: center;
+			} */
+			.first{
+				color: white;
+				font-size: 20px;
+				background: #0062CC;
+			}
+			.mui-bar-nav {background: #0062CC;}
+			.mui-title{color: white;}
+			.mui-action-back{color: white;}
+	</style>
+	</head>
+	<body>
+		<script src="js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<header class="mui-bar mui-bar-nav">
+				<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+				<h1 class="mui-title">个人信息</h1>
+				</header>
+				<div class="mui-content">
+		<div class="wrap">
+			<div class="user">
+				<div class="userinfo">
+					<img src="./images/02.png" >
+					<h3 class="name">
+						叶良辰
+					</h3>
+					<a  class="first" href="">退出登录</a>
+				</div>				
+			</div>	
+		</div>
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right">
+					我的客户
+				</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right">
+					我的余额
+				</a>
+			</li>
+			<li class="mui-table-view-cell">
+				<a class="mui-navigate-right ">
+					注册客户
+				</a>
+			</li><li class="mui-table-view-cell">
+				<a class="mui-navigate-right">
+					修改密码
+				</a>
+			</li>
+		</ul>
+		<nav class="mui-bar mui-bar-tab">
+				<a class="mui-tab-item" >
+					<div class="iconfont icon-1"></div>
+					<div class="mui-tab-label"herf="">首页</div>						
+				</a>
+				<a class="mui-tab-item" >
+					<div class="iconfont icon-chuangyexiangmu"></div>
+					<div class="mui-tab-label"herf="">创业项目</div>
+				</a>
+				<a class="mui-tab-item" >
+					<div class="iconfont icon-icon-liucheng"></div>
+					<div class="mui-tab-label"herf="">报名流程</div>
+				</a>
+				<a class="mui-tab-item" >
+					<div class="iconfont icon-fengcai"></div>
+					<div class="mui-tab-label"herf="">平台风采</div>
+				</a>
+				<a class="mui-tab-item mui-active" >
+					<div class="iconfont icon-wode1"></div>
+					<div class="mui-tab-label">我的滴滴</div>
+				</a>
+			</nav>
+			
+	</body>
+</html>
